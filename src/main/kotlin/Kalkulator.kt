@@ -4,8 +4,8 @@ open class Kalkulator {
     }
 }
 
-class penambahan(var angka:Int):Kalkulator(){
+class penambahan(var angka1:Int, var angka2:Int):Kalkulator(){
     override fun penambahan() {
-        val penambahan = angka + angka
+        val penambahan = angka1 + angka2
     }
 }
